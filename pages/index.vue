@@ -5,5 +5,8 @@
       <br />
       <span>아이컵</span>
     </h1>
+    <button>
+      <NuxtLink to="/category">시작하기</NuxtLink>
+    </button>
   </div>
 </template>
