@@ -1,9 +1,3 @@
 <template>
-  <div>
-    <h1>AICUP</h1>
-  </div>
+  <RouterView />
 </template>
-
-<script setup lang="ts"></script>
-
-<style scoped lang="scss"></style>
