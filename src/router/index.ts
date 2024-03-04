@@ -12,6 +12,11 @@ const routes = [
     component: () => import('../views/Category.vue'),
   },
   {
+    path: '/world-cup',
+    name: 'WorldCup',
+    component: () => import('../views/WorldCup.vue'),
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     redirect: { name: 'Home' },
